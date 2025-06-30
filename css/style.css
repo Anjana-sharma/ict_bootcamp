@@ -22,6 +22,8 @@
 /* nav section */
 nav {
     background: #065fb8;
+    position: sticky;
+    top: 0;
 }
 
 nav ul {
@@ -55,10 +57,6 @@ nav ul li a:hover {
     background: #065fb80d;
     color: #fff;
     padding: 0.5rem;
-}
-marquee {
-    color: #4755ff;
-    font-size: 18px;
 }
 
 /* news letter section */
@@ -184,6 +182,7 @@ hr {
 
 .contacts h2 {
     text-align: center;
+    color:white;
 }
 .contacts-wrapper {
     display: grid;
@@ -217,3 +216,32 @@ hr {
             background-color: brown;
             border: 10px;
 }
+footer {
+       background-color: #280086;
+       color: white;
+       text-align: center;
+       padding: 3rem;
+       
+   }
+ .footer-container ul {
+       list-style-type: none;
+       display: flex;
+       align-items: center;
+       align-content: center;
+       justify-content: center;
+      
+    
+    }
+ footer a {
+       color: white;
+       padding: 0.5rem;
+       display: inline-block;
+       text-decoration: none;
+       font-weight: bold;
+   }
+   
+   
+   /* category */
+   .category{
+    text-align: center;
+   }
