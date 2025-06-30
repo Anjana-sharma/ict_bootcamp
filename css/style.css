@@ -52,25 +52,8 @@ nav ul li a:hover {
 
 /* nav section */
 
-/* news letter section */
-.newletter {
-    background: #065fb80d;
-    color: #fff;
-    padding: 0.5rem;
-}
-
-/* news letter section */
-
 
 /*  */
-.container {
-    background-attachment: #ADB5BD;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 12fr));
-    align-items: center;
-    padding: 2rem;
-}
 
 .section_wrapper {
     padding: 40px;
@@ -222,6 +205,7 @@ footer {
        text-align: center;
        padding: 3rem;
        
+       
    }
  .footer-container ul {
        list-style-type: none;
@@ -245,3 +229,69 @@ footer {
    .category{
     text-align: center;
    }
+
+   .importatconctact{
+    background-color: #fff;
+   }
+
+   .importatconctact .contact-holder{
+    box-shadow: 1px 1px 5px 1px;
+   }
+
+   .pub-items{
+    margin: 1rem 0;
+    background: #cfc0f3;
+    /* width: 75%; */
+    padding: 1rem;
+    border-radius: 5px;
+   }
+
+   .publication{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+   }
+
+   #scrollToTopBtn {
+      position: fixed;
+      bottom: 40px;
+      right: 40px;
+      display: none;
+      /* background-color: #333; */
+      color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 20px;
+      cursor: pointer;
+      z-index: 1000;
+      transition: background 0.3s;
+      height: auto;
+       width: auto;
+    }
+
+    #scrollToTopBtn:hover {
+      background-color: #555;
+    }
+
+
+     .contacts-wrapper {
+            background-attachment: #ADB5BD;
+            display: grid;
+            gap: 20px;
+            align-items: center;
+            padding: 2rem;
+        }
+
+@media screen and (min-width: 768px) {
+  .contacts-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contacts-wrapper {
+    grid-template-columns: 1fr; /* Stack items vertically */
+  }
+}
+   
