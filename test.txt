@@ -1,0 +1,12 @@
+git donwload,
+git installation
+github account repo created
+git init
+git remoted added
+git config added for name and email
+git add .
+
+git comiit -m "sdfsd"
+
+git branch -M main
+git push -u origin main
