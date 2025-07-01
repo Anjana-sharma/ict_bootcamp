@@ -294,7 +294,7 @@ footer {
     grid-template-columns: 1fr; /* Stack items vertically */
   }
 }
-   /contact/
+
 
    .contact-section {
     max-width: 1000px;
@@ -397,7 +397,7 @@ footer {
   background-color: #445c87;
 }
 
-/* Hamburger Icon - hidden by default */
+
 .menu-toggle {
   display: none;
   font-size: 28px;
@@ -409,14 +409,13 @@ footer {
     
 }
 
-/* Responsive Styles */
 @media screen and (max-width: 768px) {
   .menu-toggle {
     display: block;
   }
 
   .nav-links {
-    display: none;
+    display: none !important;
     flex-direction: column;
     width: 100%;
     background-color: #2e3a59;
@@ -426,12 +425,21 @@ footer {
   }
 
   .nav-links.show {
-    display: flex;
+    display: flex !important;
+    padding: 12px;
   }
 
-  .nav-links li {
+.nav-links li {
     text-align: center;
-    padding: 10px 0;
+    background: #2e3a59;
+    padding: 0px;
+    border: 1px solid #ffffff63;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+  .nav-links li a {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
   }
 }
-.
